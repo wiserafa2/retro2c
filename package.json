@@ -1,0 +1,164 @@
+{
+    "author": "Wiseworld Entertainment",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "retro-c",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Retro//c Apple II Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "CITY",
+            "APPLE_TYPE",
+            "USE_FAHRENHEIT",
+            "SHOW_WEATHER",
+            "SHOW_DATE",
+            "SHOW_DISTANCE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/watchface-appleIIgs.png",
+                    "name": "IMAGE_BG2GS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleIIc-bg.png",
+                    "name": "IMAGE_BG2C",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleIIe-bg.png",
+                    "name": "IMAGE_BG2E",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-cursor.png",
+                    "name": "IMAGE_CURSOR",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/appleIIicon.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-10.png",
+                    "name": "IMAGE_B_10",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-20.png",
+                    "name": "IMAGE_B_20",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-30.png",
+                    "name": "IMAGE_B_30",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-40.png",
+                    "name": "IMAGE_B_40",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-50.png",
+                    "name": "IMAGE_B_50",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-60.png",
+                    "name": "IMAGE_B_60",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-70.png",
+                    "name": "IMAGE_B_70",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-80.png",
+                    "name": "IMAGE_B_80",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-90.png",
+                    "name": "IMAGE_B_90",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bt-100.png",
+                    "name": "IMAGE_B_100",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bluetooth-off.png",
+                    "name": "IMAGE_BT_OFF",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchface-appleII-bluetooth.png",
+                    "name": "IMAGE_BT_ON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/PrintChar21.ttf",
+                    "name": "FONT_PRINT_CHAR_30",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/PrintChar21.ttf",
+                    "name": "FONT_PRINT_CHAR_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "387b4715-f044-404a-9f07-e8ad19550aa6",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
